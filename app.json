@@ -1,4 +1,11 @@
 {
-  "name": "Scriptura",
-  "slug": "Scriptura"
+  "expo":{
+    "scheme": "acme",
+    "newArchEnabled": true,
+    "name": "Scriptura",
+    "slug": "Scriptura",
+    "plugins": [
+      "expo-sqlite", "expo-router"
+    ]
+  }
 }
